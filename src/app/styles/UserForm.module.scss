@@ -1,0 +1,75 @@
+.formContainer {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 870px;
+    /* Set a max width to make the form compact */
+    margin: 0 auto;
+    /* Center the form horizontally */
+}
+
+.formHeading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Style the input fields to make them shorter and centered */
+.inputField {
+    width: 100%;
+    /* Full width relative to its container */
+    max-width: 400px;
+    /* Maximum width to make them shorter */
+    margin: 0 auto 1rem auto;
+    /* Center the inputs and add bottom margin */
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    display: block;
+    /* Ensure the input fields are block elements */
+}
+
+.submitButton {
+    display: flex;
+    align-items: center;
+    /* Vertically center icon and text */
+    justify-content: center;
+    /* Horizontally center content */
+    width: 150px;
+    /* Fixed width for the button */
+    padding: 0.75rem;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin: 1rem auto 0 auto;
+    /* Center the button horizontally */
+}
+
+.buttonContent {
+    display: inline-flex;
+    align-items: center;
+    /* Vertically aligns text and icon */
+}
+
+.addButton {
+    background-color: #38a169;
+    /* green */
+}
+
+.addButton:hover {
+    background-color: #2f855a;
+    /* Darker green */
+}
+
+.updateButton {
+    background-color: #3182ce;
+    /* blue */
+}
+
+.updateButton:hover {
+    background-color: #2b6cb0;
+    /* Darker blue */
+}
